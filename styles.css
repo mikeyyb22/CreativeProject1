@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Helvetica", sans-serif;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Helvetica", sans-serif;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Helvetica", sans-serif;
+}
+
+footer {
+  color: #FFF;
+  background-color: #000;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #606060;
+  font-size: 12px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.bg-light {
+    background-color: #fff!important;
+}
+
+.special {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin: 0px;
+}
+
+.pack {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin: 0px;
+}
+
+.card {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin: 0px;
+}
+
+.card a:link {
+  color: #FFF;
+}
+
+/* visited link */
+.card a:visited {
+  color: #FFF;
+}
+
+/* mouse over link */
+.card a:hover {
+  color: #FFF;
+}
+
+/* selected link */
+.card a:active {
+  color: #FFF;
+}
+
+.pack a:link {
+  color: #FFF;
+}
+
+/* visited link */
+.pack a:visited {
+  color: #FFF;
+}
+
+/* mouse over link */
+.pack a:hover {
+  color: #FFF;
+}
+
+/* selected link */
+.pack a:active {
+  color: #FFF;
+}
+
+@media (min-width: 48em) {
+    .navbar-nav {
+        margin-left: auto!important;
+        margin-right: 0!important;
+    }
+    .photo {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+    }
+
+    .location {
+      width: 50%;
+    }
+
+    .crop img {
+      width: 100%;
+      height: 350px;
+    }
+}
